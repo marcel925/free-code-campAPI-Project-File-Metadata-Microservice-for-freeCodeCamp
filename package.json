@@ -1,0 +1,32 @@
+{
+  "name": "file_metadata",
+  "version": "0.0.1",
+  "description": "API project for freeCodeCamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1",
+    "mongodb": "^3.1.10",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "shortid": "^2.2.14",
+    "node": "^11.6.0",
+    "multer": "^1.4.1"
+  },
+  "engines": {
+    "node": "10.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hyperdev.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express"
+  ],
+  "license": "MIT"
+}
